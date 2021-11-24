@@ -1,66 +1,74 @@
 *
 {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.about
+html
 {
-    width: 100%;
-    height: 100vh;
-    background-color: #161922;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    scroll-behavior: smooth;
 }
-.about.content.img
+.contact-section
 {
-    height: auto;
-    width: 1100px;
-    max-width: 100%;
+    background: url(/Contact.jpeg) no-repeat center;
+    background-size:cover ;
+    padding: 90px 0;
 }
-.text
+h1
 {
-    width: 550px;
-    max-width: 100%;
-    padding: 0 15px;
-}
-.content
-{
-    width: 1280px;
-    max-width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; 
-    justify-content: space-around;   
-}
-.text h1
-{
-    color: #ffcc74;
+    color: white;
     font-size: 65px;
     margin-bottom: 20px;
     text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    
 }
-.text h5
+
+.border
 {
-    color: white;
-    margin-bottom: 20px;
-    letter-spacing: 4px;
-    text-transform: capitalize;
+    width: 100px;
+    height: 10px;
+    background: #161922;
+    margin: 10px auto;
+
+
 }
-.text p
+.contact-form
 {
-    color: #c0c4d6;
-    font-size: 18px;
-    line-height: 18px;
-    letter-spacing: 2px;
-    margin-bottom: 35px;
+    max-width: 600px;
+    margin: auto;
+    padding: 0, 40px;
+    overflow: hidden;
 }
-button
+.contact-form-text
 {
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 15px auto;
+    border: 0;
+    border-radius: 10px;
+    background: #161922;
+    padding: 20px 20px;
+    outline: none;
+    color: #f8d79d;
+    transition: 0.5s;
+
+}
+.contact-form-text:focus
+{
+    box-shadow: 0 0 6px 4px #ffcc74; 
+}
+.textarea .contact-form-text
+{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn
+{
+   margin-left: 150px;
+    border: 0;
     background-color: #ffcc74;
     color: black;
     border: 2px solid transparent ;
@@ -70,7 +78,7 @@ button
     font-size: 15px;
     font-weight: bold;
 }
-button:hover
+.contact-form-btn:hover
 {
     transform: scale(1.2);
     background-color: transparent;
