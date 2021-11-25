@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
+    background-color:#161922 ;
 }
 html{
     scroll-behavior: smooth;
@@ -10,15 +11,18 @@ html{
 .conatiner
 {
     width: 100%;
-    height: 100%;
-    background-color: #161922;
+    height: 100vh;
+    margin-left: 20px;
+    
 
 }
+
 .menu ul
 {
     display: inline-flex;
     margin: 50px;
-    text-decoration: none;
+    
+    
 }
 .menu ul li
 {
@@ -46,7 +50,8 @@ html{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     border: 1px solid gray;
-    width: 60vw;
+    width: 90vw;
+    height: 80vh;
 }
 .banner
 {
@@ -107,7 +112,7 @@ html{
  
     border: 1px solid black;
     border-radius: 20px;
-     margin-left: 20px;
+    margin-left: 20px;
     
 }
 
