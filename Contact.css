@@ -8,6 +8,44 @@ html
 {
     scroll-behavior: smooth;
 }
+.nav
+  {
+    margin-bottom: 180px;
+    margin-top: -180px;
+  }
+
+.logo 
+{
+    margin-left: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 32px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ffcc74;;
+  }
+  
+  
+  #cont
+  {
+      margin-right: 50px;
+  }
 .contact-section
 {
     background: url(/Contact.jpeg) no-repeat center;
