@@ -5,3 +5,10 @@
     padding: 0; 
     background-color:#161922 ;
 }
+.nav ul li a
+{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    
+}
