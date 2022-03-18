@@ -54,13 +54,15 @@ a:hover:not(active)
     border: 2px solid white;
     min-height: 74vh;
     align-items: center;
-    margin-top: -550px;
+    margin-top: -610px;
+    display: flex;
+    flex-wrap: nowrap;
 
 }
 .image
 {
    margin-left: 100px;
-   margin-top: -6px;
+   margin-top: 6px;
    width: 20%;
    height: 73vh;
    
@@ -68,6 +70,7 @@ a:hover:not(active)
 .mg
 {
  max-width: 100%;
+ margin-top: 70px;
  height: auto;
  align-items: center;
  border-radius: 5px;
@@ -78,7 +81,7 @@ a:hover:not(active)
     border: 2px solid white;
     width: 800px;
     height: 500px;
-    margin-top: 50px;
+    margin-top: -460px;
     margin-left: 400px;
    /* display: flex;
     justify-content: center;*/
