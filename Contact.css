@@ -60,6 +60,7 @@ a:hover:not(active)
 {
     color: white;
     display: flex;
+   
     flex-direction: column;
     
 }
@@ -76,4 +77,29 @@ input[type=email]
     border-bottom: 2px solid red;
     width: 200px;
 
+}
+input[type=tel]
+{
+    border: none;
+    border-bottom: 2px solid red;
+    width: 250px;
+}
+input[type=date]
+{
+    border: none;
+    border-bottom: 2px solid red;
+    width: 200px;
+}
+input[type=checkbox]
+{
+   border: none;
+   border-bottom: 2px solid;
+   width:50px;
+   margin: 10px;
+  
+   
+}
+.y
+{
+    margin: 10px;
 }
