@@ -23,11 +23,11 @@ html
 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .logo-mg
 {
-    width: 180px;
+    width: 100px;
     margin-top: 10px;
 
 }
@@ -54,18 +54,67 @@ a:hover:not(active)
     min-height: 100vh;
     width: 100%;
     align-items: center;
-    margin-top: -430px;
+    margin-top: -440px;
     /*display: flex;*/
    /* justify-content: center;*/
 }
 #frm
 {
-    color: aqua;
+    color: white ;
     border: 1px solid yellow;
     width: 600px;
+    padding: 20px 20px 20px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15px;
     
-  
-      
+}
+input[type=text]
+{ 
+    color: white;
+    border: none;
+    width: 100%;
+    margin: 8px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ffcc74 ;
+}
+input[type=email]
+{
+    color: white;
+    border: none;
+    width: 100%;
+    margin: 8px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ffcc74 ;
+}   
+input[type=tel]
+{
+    color: white;
+    border: none;
+    width: 100%;
+    margin: 8px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ffcc74 ;
+} 
+input[type=date]
+{
+    color: white;
+    border: none;
+    width: 100%;
+    margin: 8px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ffcc74 ;
+} 
 
+textarea
+{
+    width: 100%;
+    height: 80px;
+   
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
     
+    font-size: 16px;
+    resize: none; 
 }
